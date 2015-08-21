@@ -10,7 +10,7 @@ This is intended as a base off which to add specific customisation; fork and ada
 All as git submodules unless otherwise stated. Also not listing dependancies, only major modules.
 
 * [Java: latest jdk](https://github.com/puppetlabs/puppetlabs-java)
-* [Postgresql: 9.3](https://github.com/puppetlabs/puppet-postgresql)
+* [Postgresql: 9.5](https://github.com/puppetlabs/puppet-postgresql)
 * [Maven: 3.2.5](https://github.com/7terminals/puppet-maven)
 
 
@@ -40,27 +40,10 @@ You may want to edit Postgres config in the `puppet/manifests/base.pp` file.
 
 ## Changelog
 
-#### 10-04-2014
+#### 20-08-2015
 
-* Update Maven to 3.2.5
-* Automatically download the Maven binary
-
-#### 15-11-2014
-
-* Update Postgres to 9.3
-* Update Maven to 3.2.3
-* Rename host project directory to `project`
-
-#### 21-02-2014
-
-* Update Postgres to 9.2
-* Update Maven to 3.1.1
-* Update Vagrant version 2 config.
-
-#### 14-06-2013
-
-* Add Postgres, Jdk and Maven.
-* Initial commit with Vagrant version 1 config.
+* Forked repo from: https://github.com/rob-murray/vagrant-javadev-box
+* Update Postgres to 9.5
 
 
 ## Contributions

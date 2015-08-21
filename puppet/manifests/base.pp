@@ -16,7 +16,7 @@ class { "java":
 
 # Postgresql general config
 class { "postgresql":
-  version             => "9.3",
+  version             => "9.5",
   manage_package_repo => true,
   charset             => "UTF8",
   locale              => "en_US.UTF-8"
